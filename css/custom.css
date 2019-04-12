@@ -1,0 +1,118 @@
+﻿
+.most-1 ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+    font-size: 12px;
+}
+
+.most-1 ul li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.most-1 ul li:before {
+    content: "» ";
+    color: #f58220; /* or whatever color you prefer */
+}
+
+.most-1 span
+{
+    width:15% !important;
+}
+.container2
+{
+    background-color: #f2f0ec;
+    border-radius: 3px;
+    margin: 2em 5em;
+    padding: 1em;
+}
+.margin-top-buttom-15
+{
+    margin: 15px 0;
+}
+.margin-top-buttom-10
+{
+    margin: 10px 0;
+}
+.container2 ul
+{
+    font-size: 13px;
+    margin: 3px 0;
+}
+.container2 p
+{
+    font-size: 12px;
+}
+.container2 ul li.clr
+{
+ margin: 5px 0;
+}
+.menupg li.clr{
+background-color: #01ADEF;
+}
+
+.menupg > li > a  
+{
+    
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    padding: 5px 5px;
+    position: relative;
+    text-decoration: none;
+    text-indent: 1.2em;
+    width: 100%;
+}
+span.icon {
+    background: rgba(0, 0, 0, 0) url("../images/arrow.png") no-repeat scroll 0 0;
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    transition: all 0.5s ease 0s;
+    width: 20px;
+}
+.menupg ul li a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #3a3b36;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 12px 30px;
+    position: relative;
+    text-decoration: none;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #01ADEF;
+}
+
+::selection {
+    color: #fff;
+    background: #01ADEF;
+}
+.features-projects .project-fur
+{
+    background-color:#fff;
+}
+.features-projects > li
+{
+    margin-top:15px;
+}
+.brdr-right
+{
+    border-right:1px solid #fff;
+}
+.active
+{
+    background-color:#7E201B;
+}
+.container2 .margin-top-buttom-10
+{
+    font-size: 12px;
+}
+
+
